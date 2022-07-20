@@ -21,6 +21,20 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'assets/css/vendor/bootstrap-icons/bootstrap-icons.css',
+    'assets/css/vendor/bootstrap/css/bootstrap.min.css',
+    'assets/css/vendor/swiper/swiper-bundle.min.css',
+    'assets/css/style.css'
+  ],
+  script: [
+    {src:'assets/css/vendor/aos/aos.js'},
+    {src:'assets/css/vendor/bootstrap/js/bootstrap.js'},
+    {src:'assets/css/vendor/bootstrap/js/bootstrap.bundle.js'},
+    {src:'assets/css/vendor/bootstrap/js/bootstrap.esm.js'},
+    {src:'assets/css/vendor/isotope/isotope.pkgd.min.js'},
+/*
+    {src:'assets/main.js'},
+*/
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -38,7 +52,20 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/i18n',
   ],
+
+  i18n: {
+    i18n: {
+      locales: [{code: 'en', file: 'lang.js'}, {code: 'fr', file: 'lang.js'}],
+      defaultLocale: 'fr',
+      lazy: true,
+      langDir: 'locales/',
+      vueI18n: {
+        fallbackLocale: 'fr',
+      }
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
