@@ -16,7 +16,7 @@
               <div class="p-5 md:p-2 service-2">
                 <img class="h-25" src="../assets/img/img-service1.png" alt="service 1">
 
-                <h3 class="service-title pt-5 pb-2">Developement web</h3>
+                <h3 class="service-title">Developement web</h3>
                 <p class="text-service text-justify">
                   and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
                   versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and
@@ -27,7 +27,7 @@
             <div class="col-md-4 col-12 text-center">
               <div class="p-5 md:p-2 service-1">
                 <img src="../assets/img/img-service2.png" alt="service 1">
-                <h3 class="py-3">Developement Mobile</h3>
+                <h3 class="service-title text-white">Developement Mobile</h3>
                 <p class="text-service text-justify">
                   English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
                   model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
@@ -55,7 +55,7 @@
 
       <!-- ======= About Section ======= -->
       <section id="about" class="about section-bg">
-        <h1 class="text-center">Nos Réalisations ont pour but de vos rassurer <br> en tant que partenaire de
+        <h1 class="text-center px-2">Nos Réalisations ont pour but de vos rassurer <br> en tant que partenaire de
           choix</h1>
         <p class="text-center">It is the fact that A reader will be distracted by this text</p>
         <div class="container">
@@ -109,13 +109,13 @@
 
       <div id="title-testimonial">
         <div style="margin-top:-27px" class="d-flex mb-4 align-items-center justify-content-start">
-          <img src="../assets/img/rectangle-196.png" alt="">
+          <img class="d-none md:d-flex" src="../assets/img/rectangle-196.png" alt="">
           <div class="px-3">
             <h1>Nos Clients expriment <br> leurs satisfactions</h1>
             <p>It a long established Fact that a reader will be distracted bt this text</p>
           </div>
         </div>
-        <div class="container pt-5 testimonials-slider swiper">
+        <div class="container pt-5 px-3 testimonials-slider swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="d-flex align-items-center">
@@ -173,9 +173,14 @@
 
 <script>
 import Swiper, {Pagination} from 'swiper';
+import Hero from '../components/Hero'
 
 export default {
   name: 'IndexPage',
+
+  components: {
+    Hero,
+  },
 
   mounted() {
     /**
@@ -197,7 +202,7 @@ export default {
       },
       breakpoints: {
         320: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 50
         },
 
@@ -213,10 +218,6 @@ export default {
 </script>
 
 <style scoped>
-header {
-  background: transparent !important;
-}
-
 .service-1 {
   position: relative;
   overflow: hidden;
@@ -261,6 +262,8 @@ header {
 .service-title {
   text-transform: uppercase;
   color: var(--primary);
+  padding-top: 1.25rem;
+  padding-bottom: 0.5rem;
 }
 
 .image-testimonial {

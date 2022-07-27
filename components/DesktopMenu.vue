@@ -15,7 +15,7 @@
 
             </li>
             <li><NuxtLink to="/Realisations" class="nav-link ">Nos Realisations</NuxtLink></li>
-            <li><NuxtLink to="/Realisations" class="nav-link ">A Propos</NuxtLink></li>
+            <li><NuxtLink to="/propos" class="nav-link ">A Propos</NuxtLink></li>
 <!--            <li class="dropdown"><a class="nav-link" href="#"><span>Fr</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><NuxtLink class="nav-link" to="#">En</NuxtLink></li>
@@ -40,9 +40,6 @@ export default {
 </script>
 
 <style scoped>
-header {
-  background: var(--primary);
-}
   .navbar ul li a:hover::before{
     content: "";
     position: absolute;

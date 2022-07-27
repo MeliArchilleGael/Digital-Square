@@ -9,7 +9,7 @@
             <img src="../assets/img/logo.png" alt="">
           </div>
           <div class="col-md-7">
-            <div class="d-flex flex-wrap justify-content-around">
+            <div class="d-flex gap-5 flex-wrap bottom-info justify-content-around">
               <div class="text-center">
                 <p class="px-3 font-bold text-uppercase" style="color: var(--primary); font-size: 15px">Nos Services</p>
                 <div>
@@ -33,17 +33,21 @@
           </div>
         </div>
       </div>
-      <div class="bg-bottom pt-11 items-center">
-        <div class="d-flex justify-content-end">
-          <div class="bg-black w-25 contact-info py-5 px-4 mr-5">
-            <div class="text-center text-white">
-              <p><i class="bi bi-house px-2"></i>Carrefour Emia, Yaoundé-CMR</p>
-              <p><i class="bi bi-house px-2"></i>Carrefour Emia, Yaoundé-CMR</p>
-              <p><i class="bi bi-house px-2"></i>Carrefour Emia, Yaoundé-CMR</p>
+      <div class="bg-bottom">
+        <div class="d-flex md:justify-end justify-center">
+          <div class="mx-2">
+            <div class="bg-black contact-info py-5 px-4">
+              <div class="text-white">
+                <p><i class="bi bi-house px-2"></i>Carrefour Emia, Yaoundé-CMR</p>
+                <p><i class="bi bi-mailbox px-2"></i>service@bizconsulting-guyane.com</p>
+                <p><i class="bi bi-phone px-2"></i>+594 694 142 053 / +237 671 835 516</p>
 
-              <button class="get-started-btn">
-                NOUS CONTACTER
-              </button>
+                <div class="text-center">
+                  <button class="get-started-btn">
+                    NOUS CONTACTER
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -56,9 +60,9 @@
             desktop publishing
           </p>
 
-          <div class="d-flex justify-content-between">
-            <p>COPYRIGHT © DIGITAL SQUARE 2022</p>
-            <p>TOUS DROITS RESERVES</p>
+          <div class="d-flex md:justify-between justify-center">
+            <p class="text-center">COPYRIGHT © DIGITAL SQUARE 2022</p>
+            <p class="text-center">TOUS DROITS RESERVES</p>
           </div>
         </div>
       </div>
@@ -80,15 +84,26 @@ export default {
 }
 
 .contact-info {
-  margin-top: -150px;
   border-radius: 30px;
+  margin-top: -100px;
+}
+
+@media (max-width: 767px) {
+  .contact-info {
+    margin-top: 10px;
+  }
 }
 
 .bg-bottom {
   background: url("../assets/img/bg-footer.png") no-repeat center top;
+  background-size: cover;
 }
 
 .text-bottom {
   font-size: 12px;
+}
+
+.bottom-info {
+  flex-basis: 20%;
 }
 </style>

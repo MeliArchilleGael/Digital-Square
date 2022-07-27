@@ -1,8 +1,8 @@
 <template>
-  <div class="">
-    <p class="py-3 text-uppercase text-center text-white nos-services">
-      Nos services
-    </p>
+  <div>
+    <div class="pt-3 text-uppercase text-center text-white nos-services">
+      <p class="mt-11 py-2 bg-black">Nos services</p>
+    </div>
     <p class="text-center kepolu-text py-5 text-primary" style="font-size: 45px">
       Développement Web <br> Full Stack
     </p>
@@ -42,7 +42,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-12">
-          <p class="font-bold">Pourquoi considérer le développement web full stack <br> pour votre projet ?</p>
+          <p class="font-bold">Pourquoi considérer le développement web full stack pour votre projet ?</p>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when
             looking
             at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
@@ -67,7 +67,7 @@
     </div>
 
     <p class="text-center kepolu-text text-primary py-5" style="font-size: 45px">
-      Markrting Digital
+      Marketing <br> Digital
     </p>
 
     <div class="container">
@@ -105,6 +105,10 @@
 
 export default {
   name: 'ServicesPage',
+
+  mounted() {
+
+  },
 }
 
 </script>
@@ -114,5 +118,8 @@ export default {
   border-top: 2px solid var(--primary);
   background: var(--primary);
   font-size: 30px;
+}
+#header{
+  background-color: var(--primary)
 }
 </style>

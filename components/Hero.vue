@@ -4,7 +4,7 @@
 
     <div class="container text-black position-relative" data-aos="zoom-out" data-aos-delay="100">
       <div class="row ml-3">
-        <div class="w-50 ">
+        <div class="md:w-50 ">
           <h1>Bettter digital experience with Digital Square</h1>
           <h2>We are team of talented </h2>
         </div>

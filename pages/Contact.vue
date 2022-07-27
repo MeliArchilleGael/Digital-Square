@@ -1,6 +1,6 @@
 <template>
   <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
+  <section id="contact" class="contact mt-20">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -73,10 +73,12 @@
 
 <script>
 export default {
-  name: "Contact"
+  name: "ContactPage"
 }
 </script>
 
 <style scoped>
-
+  header{
+    background-color: var(--primary)
+  }
 </style>

@@ -2,22 +2,28 @@
   <div class="root">
 
     <DesktopMenu />
-    <div class="mt-20">
+    <div>
       <Nuxt/>
     </div>
     <Footer/>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <a href="#" class="back-to-top d-flex flex-wrap align-items-center justify-content-center">
       <i class="bi bi-arrow-up-short"></i>
     </a>
   </div>
 </template>
 
 <script>
-import Isotope from 'isotope-layout';
 import AOS from 'aos';
+import DesktopMenu from '../components/DesktopMenu'
+import Footer from '../components/Footer'
 
 export default {
   name: "DefaultLayout",
+
+  components: {
+    DesktopMenu,
+    Footer,
+  },
 
   computed: {
 

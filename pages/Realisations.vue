@@ -1,8 +1,9 @@
 <template>
   <div class="">
-    <p class="py-3 text-uppercase text-center text-white nos-realisations">
-      Nos Realisations
-    </p>
+    <div class="pt-3 text-uppercase text-center text-white nos-realisations">
+      <p class="mt-11 py-2 bg-black">Nos Realisations</p>
+    </div>
+
     <div class="container">
       <div class="row">
         <p class="col-md-8 col-12 text-justify">
@@ -34,14 +35,13 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-mobil">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/mobil-realisation.png" class="img-fluid" alt="">
+              <img src="@/assets/img/mobil-realisation.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/mobil-realisation.png" data-gallery="portfolioGallery"
+                  <a href="@/assets/img/mobil-realisation.png" data-gallery="portfolioGallery"
                      class="portfolio-lightbox" title="App 2"><i class="bi bi-plus-circle"></i></a>
                   <a href="#" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -49,14 +49,13 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-mobil">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/mobil-realisation.png" class="img-fluid" alt="">
+              <img src="@/assets/img/mobil-realisation.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/mobil-realisation.png" data-gallery="portfolioGallery"
+                  <a href="@/assets/img/mobil-realisation.png" data-gallery="portfolioGallery"
                      class="portfolio-lightbox" title="App 3"><i class="bi bi-plus-circle"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -64,14 +63,13 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-mobil">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/mobil-realisation.png" class="img-fluid" alt="">
+              <img src="@/assets/img/mobil-realisation.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/mobil-realisation.png" data-gallery="portfolioGallery"
+                  <a href="@/assets/img/mobil-realisation.png" data-gallery="portfolioGallery"
                      class="portfolio-lightbox" title="App 1"><i class="bi bi-plus-circle"></i></a>
                   <a href="#" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -80,14 +78,13 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/web-realiastion.png" class="img-fluid" alt="">
+              <img src="@/assets/img/web-realiastion.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/web-realiastion.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="@/assets/img/web-realiastion.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                      title="Web 3"><i class="bi bi-plus-circle"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -95,14 +92,13 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/web-realiastion.png" class="img-fluid" alt="">
+              <img src="@/assets/img/web-realiastion.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/web-realiastion.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="@/assets/img/web-realiastion.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                      title="Web 2"><i class="bi bi-plus-circle"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -110,14 +106,13 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/web-realiastion.png" class="img-fluid" alt="">
+              <img src="@/assets/img/web-realiastion.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/web-realiastion.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="@/assets/img/web-realiastion.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                      title="Web 3"><i class="bi bi-plus-circle"></i></a>
                   <a href="" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -125,11 +120,9 @@
             </div>
           </div>
 
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/web-dev.png" class="img-fluid" alt="">
+              <img src="@/assets/img/web-dev.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
@@ -142,14 +135,13 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/web-dev.png" class="img-fluid" alt="">
+              <img src="@/assets/img/web-dev.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/web-dev.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="@/assets/img/web-dev.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                      title="Card 1"><i class="bi bi-plus-circle"></i></a>
                   <a href="#" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -157,14 +149,13 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-            <img src="../assets/img/bg-realisations.png" class="w-100 h-100 z-0 top-0 position-absolute" alt="">
             <div class="portfolio-wrap">
-              <img src="../assets/img/web-dev.png" class="img-fluid" alt="">
+              <img src="@/assets/img/web-dev.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="../assets/img/web-dev.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="@/assets/img/web-dev.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                      title="Card 3"><i class="bi bi-plus-circle"></i></a>
                   <a href="#" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
@@ -186,6 +177,7 @@
 
 import Isotope from "isotope-layout";
 import AOS from "aos";
+import Swiper from "swiper";
 
 export default {
   name: 'RealisationPage',
@@ -246,13 +238,44 @@ export default {
       }, true);
     }
 
+    /**
+     * Initiate portfolio lightbox
+
+     const portfolioLightbox = GLightbox({
+      selector: '.portfolio-lightbox'
+    });
+  */
+    /**
+     * Portfolio details slider
+     */
+     new Swiper('.portfolio-details-slider', {
+      speed: 400,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      }
+    });
+
+
   }
 }
 
 </script>
 
 <style scoped>
-.nos-realisaions {
-  background: var(--top-light)
+.nos-realisations {
+  border-top: 2px solid var(--primary);
+  background: var(--primary);
+  font-size: 30px;
+}
+
+header{
+  background-color: var(--primary)
 }
 </style>
